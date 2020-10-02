@@ -1,0 +1,905 @@
+@import url('normilaze.css');
+
+main {
+    position: relative;
+    z-index: 200;
+    padding-top: 50px;
+}
+
+section {
+
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.22);
+    border-radius: 18px;
+    width: 350px;
+    margin: 35px 15px;
+    padding: 20px 30px;
+    min-height: 620px;
+    position: fixed;
+    top: -40px;
+}
+
+.Start_Game {
+    padding-top: 150px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.info_game p {
+    margin-top: 10%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn_game a {
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.browse_text {
+    color: #32BF2F;
+    margin-top: 35px;
+}
+
+
+
+.say {
+    font-weight: bold;
+}
+
+.yes {
+    font-weight: bold;
+    color: #32BF2F;
+}
+
+.no {
+    font-weight: bold;
+    color: #BF2F2F;
+}
+
+.tape_yes {
+    color: #32BF2F;
+}
+
+.HowToPlay {
+    padding-left: 20px;
+}
+
+.browse_tape {
+    padding: 0;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.browse {
+    padding-left: 20px;
+}
+
+.rulesPlay {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.btn_next {
+    position: absolute;
+    width: 50%;
+    cursor: pointer;
+    z-index: auto;
+    top: 89%;
+    right: 195px;
+}
+
+.btn_yes {
+    position: absolute;
+    width: 50%;
+    cursor: pointer;
+    z-index: auto;
+    top: 89%;
+    right: 5px;
+}
+
+
+.photo_sign_up {
+    padding: 0;
+}
+
+.btn_no {
+    position: absolute;
+    width: 50%;
+    cursor: pointer;
+    z-index: auto;
+    top: 89%;
+    right: 180px;
+}
+
+.nan {
+    display: none;
+}
+
+
+.income_text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    margin: 5px 0;
+}
+
+.income {
+    border-bottom: 1px solid #BCBCBC;
+}
+
+.income_done {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #35D13B;
+}
+
+.income_false {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BF2F2F;
+    ;
+}
+
+.invite {
+    padding-left: 50px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0;
+}
+
+.invite_text {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #BF2F2F;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: #2FBF4F;
+}
+
+.cvartal_report {
+    border-top: 1px solid #BCBCBC;
+}
+
+.now_moments {
+    border-top: 1px solid #BCBCBC;
+    ;
+}
+
+.now_moments .income {
+    border: none;
+}
+
+.idea {
+    border-top: 1px solid #BCBCBC;
+    padding-top: 30px;
+}
+
+.result span {
+    font-weight: bold;
+}
+
+.end_game {
+   
+    max-width: 400px;
+    text-align: left;
+}
+
+.end_game h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.end_game p {
+    padding: 0;
+    margin: 0;
+     font-size: 18px;
+     line-height: 30px;
+}
+
+.end_game h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.rules {
+    padding-top: 50px;
+}
+
+.done {
+    padding: 0;
+}
+
+.done h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #979797;
+}
+
+.done p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #35D13B;
+}
+
+.user {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+
+.user_Lesa {
+    margin-left: 20px;
+}
+
+.user_Lesa h5 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 770px) {
+    .income_right {
+        max-width: 160px;
+    }
+
+    .income_left {
+        max-width: 150px;
+    }
+
+    .action_left {
+        max-width: 150px;
+    }
+
+    .action_right {
+        max-width: 150px;
+    }
+
+    .income_text {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    main {
+        margin-left: -28px;
+
+    }
+
+   
+
+
+}
+
+@media (max-height:600px) {
+    section {
+        min-height: 0;
+    }
+
+    .browse_tape {
+        margin-bottom: 10%;
+    }
+
+    .btn_yes {
+        margin-top: 10%;
+    }
+
+    .btn_no {
+        margin-top: 10%;
+    }
+
+    .btn_game {
+        margin-bottom: 20%;
+    }
+
+    .CardsTwo {
+        margin-top: 10%;
+    }
+
+    .invite {
+        top: -15%;
+    }
+
+    .Cards_next {
+        margin-top: 0;
+    }
+}
+
+
+@media (min-height:700px) and (max-width:1200px) {
+    section {
+        margin-top: 30%;
+    }
+}
+
+.none {
+    display: none;
+}
+
+.action_right {
+    padding: 0;
+}
+
+
+.cssload-dots {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    outline: 1px solid red;
+    filter: url(#goo);
+    -o-filter: url(#goo);
+    -ms-filter: url(#goo);
+    -webkit-filter: url(#goo);
+    -moz-filter: url(#goo);
+}
+
+.cssload-dot {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cssload-dot:before {
+    content: "";
+    width: 34px;
+    height: 34px;
+    border-radius: 49px;
+    background: rgb(251, 211, 1);
+    position: absolute;
+    left: 50%;
+    transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    margin-left: -17.5px;
+    margin-top: -17.5px;
+}
+
+
+
+.cssload-dot:nth-child(5):before {
+    z-index: 100;
+    width: 44.5px;
+    height: 44.5px;
+    margin-left: -21.75px;
+    margin-top: -21.75px;
+    animation: cssload-dot-colors 4.6s ease infinite;
+    -o-animation: cssload-dot-colors 4.6s ease infinite;
+    -ms-animation: cssload-dot-colors 4.6s ease infinite;
+    -webkit-animation: cssload-dot-colors 4.6s ease infinite;
+    -moz-animation: cssload-dot-colors 4.6s ease infinite;
+}
+
+
+.cssload-dot:nth-child(1) {
+    animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+    -o-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+    -ms-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+    -webkit-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+    -moz-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+}
+
+.cssload-dot:nth-child(1):before {
+    background-color: rgb(255, 50, 112);
+    animation: cssload-dot-move 4.6s 0s ease infinite;
+    -o-animation: cssload-dot-move 4.6s 0s ease infinite;
+    -ms-animation: cssload-dot-move 4.6s 0s ease infinite;
+    -webkit-animation: cssload-dot-move 4.6s 0s ease infinite;
+    -moz-animation: cssload-dot-move 4.6s 0s ease infinite;
+}
+
+.cssload-dot:nth-child(2) {
+    animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+    -o-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+    -ms-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+    -webkit-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+    -moz-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+}
+
+.cssload-dot:nth-child(2):before {
+    background-color: rgb(32, 139, 241);
+    animation: cssload-dot-move 4.6s 1.15s ease infinite;
+    -o-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+    -ms-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+    -webkit-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+    -moz-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+}
+
+.cssload-dot:nth-child(3) {
+    animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+    -o-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+    -ms-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+    -webkit-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+    -moz-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+}
+
+.cssload-dot:nth-child(3):before {
+    background-color: rgb(175, 225, 2);
+    animation: cssload-dot-move 4.6s 2.3s ease infinite;
+    -o-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+    -ms-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+    -webkit-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+    -moz-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+}
+
+.cssload-dot:nth-child(4) {
+    animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+    -o-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+    -ms-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+    -webkit-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+    -moz-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+}
+
+.cssload-dot:nth-child(4):before {
+    background-color: rgb(251, 211, 1);
+    animation: cssload-dot-move 4.6s 3.45s ease infinite;
+    -o-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+    -ms-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+    -webkit-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+    -moz-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+}
+
+@keyframes cssload-dot-move {
+    0% {
+        transform: translateY(0);
+    }
+
+    18%,
+    22% {
+        transform: translateY(-68px);
+    }
+
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@-o-keyframes cssload-dot-move {
+    0% {
+        -o-transform: translateY(0);
+    }
+
+    18%,
+    22% {
+        -o-transform: translateY(-68px);
+    }
+
+    40%,
+    100% {
+        -o-transform: translateY(0);
+    }
+}
+
+@-ms-keyframes cssload-dot-move {
+    0% {
+        -ms-transform: translateY(0);
+    }
+
+    18%,
+    22% {
+        -ms-transform: translateY(-68px);
+    }
+
+    40%,
+    100% {
+        -ms-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes cssload-dot-move {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+
+    18%,
+    22% {
+        -webkit-transform: translateY(-68px);
+    }
+
+    40%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes cssload-dot-move {
+    0% {
+        -moz-transform: translateY(0);
+    }
+
+    18%,
+    22% {
+        -moz-transform: translateY(-68px);
+    }
+
+    40%,
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+
+@keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251, 211, 1);
+    }
+
+    25% {
+        background-color: rgb(255, 50, 112);
+    }
+
+    50% {
+        background-color: rgb(32, 139, 241);
+    }
+
+    75% {
+        background-color: rgb(175, 225, 2);
+    }
+
+    100% {
+        background-color: rgb(251, 211, 1);
+    }
+}
+
+@-o-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251, 211, 1);
+    }
+
+    25% {
+        background-color: rgb(255, 50, 112);
+    }
+
+    50% {
+        background-color: rgb(32, 139, 241);
+    }
+
+    75% {
+        background-color: rgb(175, 225, 2);
+    }
+
+    100% {
+        background-color: rgb(251, 211, 1);
+    }
+}
+
+@-ms-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251, 211, 1);
+    }
+
+    25% {
+        background-color: rgb(255, 50, 112);
+    }
+
+    50% {
+        background-color: rgb(32, 139, 241);
+    }
+
+    75% {
+        background-color: rgb(175, 225, 2);
+    }
+
+    100% {
+        background-color: rgb(251, 211, 1);
+    }
+}
+
+@-webkit-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251, 211, 1);
+    }
+
+    25% {
+        background-color: rgb(255, 50, 112);
+    }
+
+    50% {
+        background-color: rgb(32, 139, 241);
+    }
+
+    75% {
+        background-color: rgb(175, 225, 2);
+    }
+
+    100% {
+        background-color: rgb(251, 211, 1);
+    }
+}
+
+@-moz-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251, 211, 1);
+    }
+
+    25% {
+        background-color: rgb(255, 50, 112);
+    }
+
+    50% {
+        background-color: rgb(32, 139, 241);
+    }
+
+    75% {
+        background-color: rgb(175, 225, 2);
+    }
+
+    100% {
+        background-color: rgb(251, 211, 1);
+    }
+}
+
+@keyframes cssload-dot-rotate-1 {
+    0% {
+        transform: rotate(-105deg);
+    }
+
+    100% {
+        transform: rotate(270deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-1 {
+    0% {
+        -o-transform: rotate(-105deg);
+    }
+
+    100% {
+        -o-transform: rotate(270deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-1 {
+    0% {
+        -ms-transform: rotate(-105deg);
+    }
+
+    100% {
+        -ms-transform: rotate(270deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-1 {
+    0% {
+        -webkit-transform: rotate(-105deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(270deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-1 {
+    0% {
+        -moz-transform: rotate(-105deg);
+    }
+
+    100% {
+        -moz-transform: rotate(270deg);
+    }
+}
+
+@keyframes cssload-dot-rotate-2 {
+    0% {
+        transform: rotate(165deg);
+    }
+
+    100% {
+        transform: rotate(540deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-2 {
+    0% {
+        -o-transform: rotate(165deg);
+    }
+
+    100% {
+        -o-transform: rotate(540deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-2 {
+    0% {
+        -ms-transform: rotate(165deg);
+    }
+
+    100% {
+        -ms-transform: rotate(540deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-2 {
+    0% {
+        -webkit-transform: rotate(165deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(540deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-2 {
+    0% {
+        -moz-transform: rotate(165deg);
+    }
+
+    100% {
+        -moz-transform: rotate(540deg);
+    }
+}
+
+@keyframes cssload-dot-rotate-3 {
+    0% {
+        transform: rotate(435deg);
+    }
+
+    100% {
+        transform: rotate(810deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-3 {
+    0% {
+        -o-transform: rotate(435deg);
+    }
+
+    100% {
+        -o-transform: rotate(810deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-3 {
+    0% {
+        -ms-transform: rotate(435deg);
+    }
+
+    100% {
+        -ms-transform: rotate(810deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-3 {
+    0% {
+        -webkit-transform: rotate(435deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(810deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-3 {
+    0% {
+        -moz-transform: rotate(435deg);
+    }
+
+    100% {
+        -moz-transform: rotate(810deg);
+    }
+}
+
+@keyframes cssload-dot-rotate-4 {
+    0% {
+        transform: rotate(705deg);
+    }
+
+    100% {
+        transform: rotate(1080deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-4 {
+    0% {
+        -o-transform: rotate(705deg);
+    }
+
+    100% {
+        -o-transform: rotate(1080deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-4 {
+    0% {
+        -ms-transform: rotate(705deg);
+    }
+
+    100% {
+        -ms-transform: rotate(1080deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-4 {
+    0% {
+        -webkit-transform: rotate(705deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1080deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-4 {
+    0% {
+        -moz-transform: rotate(705deg);
+    }
+
+    100% {
+        -moz-transform: rotate(1080deg);
+    }
+}
